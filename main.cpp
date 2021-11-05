@@ -5,6 +5,7 @@ int main() {
 //    initialization();
 //    BooleanAndInteger();
 //    IntegerForCondition();
-    Input();
+//    Input();
+    DataSizeUpgrade();
     return 0;
 }

@@ -8,6 +8,7 @@ int initialization();
 void BooleanAndInteger();
 void IntegerForCondition();
 void Input();
+void DataSizeUpgrade();
 
 class DataValue {
 

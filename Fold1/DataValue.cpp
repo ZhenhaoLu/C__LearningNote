@@ -5,6 +5,7 @@
 #include "DataValue.h"
 #include <iostream>
 #include <string>
+#include <typeinfo>
 using namespace std;
 
 int initialization(){
@@ -41,7 +42,7 @@ void Input(){
     int a, b, c, d, e;
     string str, str1;
     cout << "格式为cin >>" << endl;
-    cout << "请输入三个数字，用回车Enter隔开" << endl;
+    cout << "接下来将介绍一次性输入多个值的方法。\n请输入三个数字，用回车Enter隔开" << endl;
     cin >> a >> b >> c;
     cout << "三个数之和为" << a + b + c << endl;
     cout << "请输入三个数字，用空格隔开" << endl;
@@ -50,7 +51,7 @@ void Input(){
     cout << "请输入三个数字，用Tab隔开" << endl;
     cin >> a >> b >> c;
     cout << "三个数之和为" << a + b + c << endl;
-    cout << "请输入四个数字，分别用上面三种方式隔开" << endl;
+    cout << "这三种方法可以同时使用。\n请输入四个数字，分别用上面三种方式隔开" << endl;
     cin >> a >> b >> c >> d;
     cout << "四个数之和为" << a + b + c + d << endl;
     cout << "请输入一句带空格的英文" << endl;
@@ -65,9 +66,31 @@ void Input(){
     cout << "str1的输出为：" <<str1 << endl;
     cout << "最后请注意，如果在同一函数内先使用cin>>再使用getline（），请在二者之间添加一行"
             "cin.get();来去掉末尾的换行符（回车）" << endl;
-    cout << "若是对int变量输入字符串，cin行会忽视本程序后面等待的全部输入并为所有等待输入的(未初始化)变量赋予一个随机值,"
-            "而被输入错误值的变量会被初始化为0。对所有数字类型变量均适用\n接下来将运行cin>> int1 >> int2, 请输入一个字母：";
+    cout << "若是对int变量输入字符串，cin行会忽视本程序后面等待的全部输入并为所有等待输入的(未初始化)变量赋予一个随机值"
+            "（string会被初始化为为长度为0的字符串）,"
+            "而被输入错误值的变量会被初始化为0。对所有数字类型变量均适用."
+            "另外，对多输入语句中的int输入小数也会导致类似的错误，被输入的变量只会得到小数的整数部分，"
+            "其余部分（包括小数点）会被下一次输入请求接受并报错（如果仍然要求输入int的话, 如果是string就不会）\n"
+            "接下来将运行cin>> int1 >> int2, 请输入一个字母或非整数：";
+    /*
+     * Eg. input 4.11   =>  input stream (cin) = [4, ., 1, 1] 该输入流有4个characters
+     * => cin >> int1 >> int2   =>  int1 try to get 4   =>  成功, int1 = 4
+     * => int1 try to get .     =>  失败，.对于int类型是非法的，但int1已读取到合法输入（4）    =>  停止读取
+     * => 下一个int2开始读取       =>  失败，.对于int类型是非法的，int2并未得到任何合法输入  => Error
+     * => int2 = 0              =>  停止int2之后本程序内所有的输入请求（关闭输入功能）     => 继续运行除输入外其他指令
+     * => 若遇上未初始化变量     （1）string = “”
+     *                       （2）数字类型 = 随机值
+     */
     cin >> a >> e;
     cout << "int1 = " << a << ", int2 = " << e << endl;
 
+}
+
+void DataSizeUpgrade(){
+    cout << "在C++中，int数据大小为32bit（比特）/4byte（字节）, float 和 double为64bit（比特）/8byte（字节）"
+            "当出现int + double时， 系统会自动将int转为double类型" << endl;
+    cout << "接下来将输出 int （= 10） + double （= 2.8）的值:";
+    int a = 10;
+    double b = 2.8;
+    cout << a + b << ", 其类型为：" << typeid(a + b).name()<< endl;
 }
