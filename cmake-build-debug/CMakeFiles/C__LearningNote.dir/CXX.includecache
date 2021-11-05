@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.cpp
+DataValue.h
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.h
+iostream
+-
+string
+-
+
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.h
+

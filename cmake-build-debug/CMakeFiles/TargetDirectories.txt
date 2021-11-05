@@ -1,0 +1,3 @@
+C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir
+C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/rebuild_cache.dir
