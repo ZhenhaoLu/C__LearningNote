@@ -142,6 +142,30 @@ Fold1\DataValue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\DataValue.cpp.s
 .PHONY : Fold1\DataValue.cpp.s
 
+SomeFunctions\SystenFunctions.obj: SomeFunctions\SystenFunctions.cpp.obj
+.PHONY : SomeFunctions\SystenFunctions.obj
+
+# target to build an object file
+SomeFunctions\SystenFunctions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\SomeFunctions\SystenFunctions.cpp.obj
+.PHONY : SomeFunctions\SystenFunctions.cpp.obj
+
+SomeFunctions\SystenFunctions.i: SomeFunctions\SystenFunctions.cpp.i
+.PHONY : SomeFunctions\SystenFunctions.i
+
+# target to preprocess a source file
+SomeFunctions\SystenFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\SomeFunctions\SystenFunctions.cpp.i
+.PHONY : SomeFunctions\SystenFunctions.cpp.i
+
+SomeFunctions\SystenFunctions.s: SomeFunctions\SystenFunctions.cpp.s
+.PHONY : SomeFunctions\SystenFunctions.s
+
+# target to generate assembly for a file
+SomeFunctions\SystenFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\SomeFunctions\SystenFunctions.cpp.s
+.PHONY : SomeFunctions\SystenFunctions.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -178,6 +202,9 @@ help:
 	@echo ... Fold1/DataValue.obj
 	@echo ... Fold1/DataValue.i
 	@echo ... Fold1/DataValue.s
+	@echo ... SomeFunctions/SystenFunctions.obj
+	@echo ... SomeFunctions/SystenFunctions.i
+	@echo ... SomeFunctions/SystenFunctions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

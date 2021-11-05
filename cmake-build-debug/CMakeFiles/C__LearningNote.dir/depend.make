@@ -4,6 +4,10 @@
 CMakeFiles\C__LearningNote.dir\Fold1\DataValue.cpp.obj: ..\Fold1\DataValue.cpp
 CMakeFiles\C__LearningNote.dir\Fold1\DataValue.cpp.obj: ..\Fold1\DataValue.h
 
+CMakeFiles\C__LearningNote.dir\SomeFunctions\SystenFunctions.cpp.obj: ..\SomeFunctions\SystenFunctions.cpp
+CMakeFiles\C__LearningNote.dir\SomeFunctions\SystenFunctions.cpp.obj: ..\SomeFunctions\SystenFunctions.h
+
 CMakeFiles\C__LearningNote.dir\main.cpp.obj: ..\Fold1\DataValue.h
+CMakeFiles\C__LearningNote.dir\main.cpp.obj: ..\SomeFunctions\SystenFunctions.h
 CMakeFiles\C__LearningNote.dir\main.cpp.obj: ..\main.cpp
 

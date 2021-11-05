@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.cpp
-DataValue.h
-C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.h
+C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.cpp
+SystenFunctions.h
+C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.h
+
+C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.h
 iostream
 -
 string
 -
-
-C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.h
+typeinfo
+-
 

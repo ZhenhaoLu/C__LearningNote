@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.h">
 			<Option target="C__LearningNote"/>
 		</Unit>
+		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.cpp">
+			<Option target="C__LearningNote"/>
+		</Unit>
+		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.h">
+			<Option target="C__LearningNote"/>
+		</Unit>
 		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/main.cpp">
 			<Option target="C__LearningNote"/>
 		</Unit>

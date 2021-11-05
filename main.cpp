@@ -1,11 +1,15 @@
-#include <iostream>
 #include "Fold1/DataValue.h"
+#include "SomeFunctions/SystenFunctions.h"
+#include <iostream>
+using namespace std;
+
 int main() {
-    std::cout << "Welcome" << std::endl;
+    cout << "Welcome" << endl;
 //    initialization();
 //    BooleanAndInteger();
 //    IntegerForCondition();
 //    Input();
-    DataSizeUpgrade();
+//    DataSizeUpgrade();
+    getType();
     return 0;
 }

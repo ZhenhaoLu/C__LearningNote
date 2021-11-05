@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/Fold1/DataValue.cpp.obj"
+  "C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/SomeFunctions/SystenFunctions.cpp.obj"
   "C:/Users/13667/CLionProjects/C++LearningNote/main.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
