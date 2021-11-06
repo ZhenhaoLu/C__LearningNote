@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Arrays.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/Fold1/Arrays.cpp.obj"
   "C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/Fold1/DataValue.cpp.obj"
+  "C:/Users/13667/CLionProjects/C++LearningNote/Fold1/LoopAndJustify.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/Fold1/LoopAndJustify.cpp.obj"
   "C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/SomeFunctions/SystenFunctions.cpp.obj"
   "C:/Users/13667/CLionProjects/C++LearningNote/main.cpp" "C:/Users/13667/CLionProjects/C++LearningNote/cmake-build-debug/CMakeFiles/C__LearningNote.dir/main.cpp.obj"
   )

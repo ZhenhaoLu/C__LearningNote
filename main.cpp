@@ -1,5 +1,5 @@
-#include "AllFunctions.h"
-#include <iostream>
+#include "AllFunctions.h"   // use "file_name.h" for your own files
+#include <iostream>         // use <file_name> for system files
 using namespace std;
 
 int main() {
@@ -11,6 +11,8 @@ int main() {
 //    DataSizeUpgrade();
 //    getType();
 //    ForEach();
-    InfiniteLoop();
+//    InfiniteLoop();
+//    switchAndBreak();
+    EnumClass();
     return 0;
 }

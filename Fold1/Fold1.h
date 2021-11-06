@@ -5,6 +5,7 @@
 #ifndef C__LEARNINGNOTE_FOLD1_H
 #define C__LEARNINGNOTE_FOLD1_H
 #include <iostream>
+#include <thread>
 using namespace std;
 int initialization();
 void BooleanAndInteger();
@@ -13,4 +14,6 @@ void Input();
 void DataSizeUpgrade();
 void ForEach();
 void InfiniteLoop();
+void switchAndBreak();
+void EnumClass();
 #endif //C__LEARNINGNOTE_FOLD1_H

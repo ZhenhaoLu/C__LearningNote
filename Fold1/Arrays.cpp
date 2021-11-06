@@ -26,13 +26,4 @@ void ForEach(){
             " we cannot change its structure" << endl;
 }
 
-void InfiniteLoop(){
-    cout << "In java, we always use while(true) to represent infinite loop. "
-            "In C++, we can also use for(;;) to implement it" << endl;
-    for(;;){
-        cout << "Please press ctrl + C to end this loop" << endl;
-        std::this_thread::sleep_for(chrono::seconds(2));
-    }
-}
-
 

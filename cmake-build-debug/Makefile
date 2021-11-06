@@ -166,6 +166,30 @@ Fold1\DataValue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\DataValue.cpp.s
 .PHONY : Fold1\DataValue.cpp.s
 
+Fold1\LoopAndJustify.obj: Fold1\LoopAndJustify.cpp.obj
+.PHONY : Fold1\LoopAndJustify.obj
+
+# target to build an object file
+Fold1\LoopAndJustify.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\LoopAndJustify.cpp.obj
+.PHONY : Fold1\LoopAndJustify.cpp.obj
+
+Fold1\LoopAndJustify.i: Fold1\LoopAndJustify.cpp.i
+.PHONY : Fold1\LoopAndJustify.i
+
+# target to preprocess a source file
+Fold1\LoopAndJustify.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\LoopAndJustify.cpp.i
+.PHONY : Fold1\LoopAndJustify.cpp.i
+
+Fold1\LoopAndJustify.s: Fold1\LoopAndJustify.cpp.s
+.PHONY : Fold1\LoopAndJustify.s
+
+# target to generate assembly for a file
+Fold1\LoopAndJustify.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\LoopAndJustify.cpp.s
+.PHONY : Fold1\LoopAndJustify.cpp.s
+
 SomeFunctions\SystenFunctions.obj: SomeFunctions\SystenFunctions.cpp.obj
 .PHONY : SomeFunctions\SystenFunctions.obj
 
@@ -229,6 +253,9 @@ help:
 	@echo ... Fold1/DataValue.obj
 	@echo ... Fold1/DataValue.i
 	@echo ... Fold1/DataValue.s
+	@echo ... Fold1/LoopAndJustify.obj
+	@echo ... Fold1/LoopAndJustify.i
+	@echo ... Fold1/LoopAndJustify.s
 	@echo ... SomeFunctions/SystenFunctions.obj
 	@echo ... SomeFunctions/SystenFunctions.i
 	@echo ... SomeFunctions/SystenFunctions.s

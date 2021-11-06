@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C__LearningNote.dir/Fold1/Arrays.cpp.obj"
   "CMakeFiles/C__LearningNote.dir/Fold1/DataValue.cpp.obj"
+  "CMakeFiles/C__LearningNote.dir/Fold1/LoopAndJustify.cpp.obj"
   "CMakeFiles/C__LearningNote.dir/SomeFunctions/SystenFunctions.cpp.obj"
   "CMakeFiles/C__LearningNote.dir/main.cpp.obj"
   "C__LearningNote.exe"
