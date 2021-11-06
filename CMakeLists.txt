@@ -3,4 +3,4 @@ project(C__LearningNote)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C__LearningNote main.cpp Fold1/DataValue.cpp Fold1/DataValue.h SomeFunctions/SystenFunctions.cpp SomeFunctions/SystenFunctions.h)
+add_executable(C__LearningNote main.cpp Fold1/DataValue.cpp Fold1/DataValue.h SomeFunctions/SystenFunctions.cpp SomeFunctions/SystenFunctions.h Fold1/Arrays.cpp Fold1/Arrays.h AllFunctions.h Fold1/Fold1.h)

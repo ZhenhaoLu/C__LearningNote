@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/AllFunctions.h">
+			<Option target="C__LearningNote"/>
+		</Unit>
+		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Arrays.cpp">
+			<Option target="C__LearningNote"/>
+		</Unit>
+		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Arrays.h">
+			<Option target="C__LearningNote"/>
+		</Unit>
 		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.cpp">
 			<Option target="C__LearningNote"/>
 		</Unit>
 		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.h">
+			<Option target="C__LearningNote"/>
+		</Unit>
+		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Fold1.h">
 			<Option target="C__LearningNote"/>
 		</Unit>
 		<Unit filename="C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.cpp">

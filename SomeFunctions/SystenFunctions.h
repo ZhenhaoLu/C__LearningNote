@@ -11,7 +11,6 @@ using namespace std;
 
 void getType();
 
-
 class SystenFunctions{};
 
 

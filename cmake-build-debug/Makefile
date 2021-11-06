@@ -118,6 +118,30 @@ C__LearningNote\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\build
 .PHONY : C__LearningNote\fast
 
+Fold1\Arrays.obj: Fold1\Arrays.cpp.obj
+.PHONY : Fold1\Arrays.obj
+
+# target to build an object file
+Fold1\Arrays.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\Arrays.cpp.obj
+.PHONY : Fold1\Arrays.cpp.obj
+
+Fold1\Arrays.i: Fold1\Arrays.cpp.i
+.PHONY : Fold1\Arrays.i
+
+# target to preprocess a source file
+Fold1\Arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\Arrays.cpp.i
+.PHONY : Fold1\Arrays.cpp.i
+
+Fold1\Arrays.s: Fold1\Arrays.cpp.s
+.PHONY : Fold1\Arrays.s
+
+# target to generate assembly for a file
+Fold1\Arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__LearningNote.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C__LearningNote.dir\Fold1\Arrays.cpp.s
+.PHONY : Fold1\Arrays.cpp.s
+
 Fold1\DataValue.obj: Fold1\DataValue.cpp.obj
 .PHONY : Fold1\DataValue.obj
 
@@ -199,6 +223,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__LearningNote
+	@echo ... Fold1/Arrays.obj
+	@echo ... Fold1/Arrays.i
+	@echo ... Fold1/Arrays.s
 	@echo ... Fold1/DataValue.obj
 	@echo ... Fold1/DataValue.i
 	@echo ... Fold1/DataValue.s

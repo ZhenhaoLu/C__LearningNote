@@ -6,6 +6,32 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/13667/CLionProjects/C++LearningNote/AllFunctions.h
+Fold1/Fold1.h
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Fold1.h
+SomeFunctions/SystenFunctions.h
+C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.h
+
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Arrays.cpp
+Fold1.h
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Fold1.h
+thread
+-
+
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/DataValue.cpp
+Fold1.h
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Fold1.h
+iostream
+-
+string
+-
+typeinfo
+-
+
+C:/Users/13667/CLionProjects/C++LearningNote/Fold1/Fold1.h
+iostream
+-
+
 C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.cpp
 SystenFunctions.h
 C:/Users/13667/CLionProjects/C++LearningNote/SomeFunctions/SystenFunctions.h
@@ -16,5 +42,11 @@ iostream
 string
 -
 typeinfo
+-
+
+C:/Users/13667/CLionProjects/C++LearningNote/main.cpp
+AllFunctions.h
+C:/Users/13667/CLionProjects/C++LearningNote/AllFunctions.h
+iostream
 -
 

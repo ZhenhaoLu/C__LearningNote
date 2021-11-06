@@ -7,6 +7,7 @@
  * In this file:
  *
  * getType(): how to get a variable's type name as a string.
+ * ForEach(): Difference between Java and C++
  */
 
 

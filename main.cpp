@@ -1,5 +1,4 @@
-#include "Fold1/DataValue.h"
-#include "SomeFunctions/SystenFunctions.h"
+#include "AllFunctions.h"
 #include <iostream>
 using namespace std;
 
@@ -10,6 +9,8 @@ int main() {
 //    IntegerForCondition();
 //    Input();
 //    DataSizeUpgrade();
-    getType();
+//    getType();
+//    ForEach();
+    InfiniteLoop();
     return 0;
 }
