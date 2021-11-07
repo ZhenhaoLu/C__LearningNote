@@ -7,6 +7,9 @@ CMakeFiles\C__LearningNote.dir\Fold1\Arrays.cpp.obj: ..\Fold1\Fold1.h
 CMakeFiles\C__LearningNote.dir\Fold1\DataValue.cpp.obj: ..\Fold1\DataValue.cpp
 CMakeFiles\C__LearningNote.dir\Fold1\DataValue.cpp.obj: ..\Fold1\Fold1.h
 
+CMakeFiles\C__LearningNote.dir\Fold1\LoopAndJustify.cpp.obj: ..\Fold1\Fold1.h
+CMakeFiles\C__LearningNote.dir\Fold1\LoopAndJustify.cpp.obj: ..\Fold1\LoopAndJustify.cpp
+
 CMakeFiles\C__LearningNote.dir\SomeFunctions\SystenFunctions.cpp.obj: ..\SomeFunctions\SystenFunctions.cpp
 CMakeFiles\C__LearningNote.dir\SomeFunctions\SystenFunctions.cpp.obj: ..\SomeFunctions\SystenFunctions.h
 

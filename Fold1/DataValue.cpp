@@ -94,3 +94,28 @@ void DataSizeUpgrade(){
     double b = 2.8;
     cout << a + b << ", 其类型为：" << typeid(a + b).name()<< endl;
 }
+
+#define C1 10
+#define WRONG wrong
+#define C2 5 + 6
+void Constant(){
+    cout << "#define can let you replace some long value with short keyword. The format is #define name value"
+            "However, as I think, #define can represent anything, not just value, and compiler will never checks"
+            "whether it is legal. #define can only replace some code (not value, variable or any other things "
+            "when running, it can only change the code). Below is an example" << endl;
+    cout << "define C1 = " << C1 << endl << endl;
+    cout << "You can also use the defined identifiers from included .h files" << endl;
+    cout << "Constant from Fold1.h is " << CONST << endl << endl;
+//    cout << WRONG;   //It will cause compile error.
+    cout << "#define sometimes may cause unexpected logistic error. For example, I define C2 = 5 + 6 and output"
+            "2 * C2 * 3 whose expected output is 2 * 11 * 5 = 55. However, the final result is:";
+    cout << 2 * C2 * 3 << " which is the result of 2 * 5 + 6 * 3 = 28\n" << endl;
+    cout << "In conclusion, #define will be very useful when you want to use a long chain formula many times "
+            "(though building a function for that formula is also a good way)\n" << endl;
+    cout << "The second way to get constant value \"const\" is more useful. It can be added before the type of "
+            "variable when you declared it. However, you also need to initialize that variable as soon as you "
+            "declare. Once you declared it, none can modify it any more." << endl;
+    const int c = 9;
+    cout << "const int c = 9; => c = "<< c << endl;
+//    c++;    //This will cause a compile error
+}

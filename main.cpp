@@ -13,6 +13,7 @@ int main() {
 //    ForEach();
 //    InfiniteLoop();
 //    switchAndBreak();
-    EnumClass();
+//    EnumClass();
+    Constant();
     return 0;
 }

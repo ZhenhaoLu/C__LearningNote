@@ -4,6 +4,7 @@
 
 #ifndef C__LEARNINGNOTE_FOLD1_H
 #define C__LEARNINGNOTE_FOLD1_H
+#define CONST 10
 #include <iostream>
 #include <thread>
 using namespace std;
@@ -16,4 +17,5 @@ void ForEach();
 void InfiniteLoop();
 void switchAndBreak();
 void EnumClass();
+void Constant();
 #endif //C__LEARNINGNOTE_FOLD1_H
