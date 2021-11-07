@@ -18,4 +18,5 @@ void InfiniteLoop();
 void switchAndBreak();
 void EnumClass();
 void Constant();
+void PointerAndReference();
 #endif //C__LEARNINGNOTE_FOLD1_H

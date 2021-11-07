@@ -119,3 +119,47 @@ void Constant(){
     cout << "const int c = 9; => c = "<< c << endl;
 //    c++;    //This will cause a compile error
 }
+
+void PointerAndReference(){
+    /**
+     * Pointer stores the address of variable it point to
+     */
+    int a = 5;
+    int* b = &a;   // It means pointer b point to a's location
+    /**
+     * Difference between b and *b
+     */
+    cout << "b is the address of a = " << b << endl;
+    cout << "*b is the value stored at location b (which is a) = " << *b << endl;
+    /**
+     * You can think *b is a reference type variable in Java such as ArrayList or your own classes.
+     * The difference is, in Java, we can use ArrayList's (*b's) methods to control its content or structure
+     * but in C++, address b can also do many things
+     */
+    // Similar to reference type variable in Java, changing (*b)'s (not b's) value can also change the value of a
+    (*b)++;
+    cout << "by using (*b)+=1, now a = "<< a << endl;
+    //  constant variable can also be pointed by constant pointer
+    //  (int -> int*) and (const int -> const int*)
+    const int c = 6;
+    const int* d = &c;
+    // Declaration of pointers can be independent of its initialization
+    // but initialization is still necessary or there will be a run time error,
+    // a null value = nullptr is acceptable by a pointer
+    int* e = nullptr;
+    cout << "whether e is null: " << boolalpha <<(e == nullptr) << endl;
+    int& t = a; // This means t refer a
+    // t is similar to *b, which point to the location where a's value is stored.
+    // &t is similar to b. They are all the address of a
+    // However, you must initialize t as soon as you declare it and initialization cannot be null or constant value
+    cout << "&t = " << &t << endl;
+    cout << "t = " << t << endl;
+    /**
+     * This a good view to b, *b, t, &t I think
+     * b's type is int*. In other words, b is the base,
+     *      *b is similar to a method of b which return's the value stored in b
+     * t's type is int&. In other words, t is the base,
+     *      &b is similar to a method of t which return's the address where t point to
+     * Hence, b can be null because an address value can be nullptr, but t cannot be null because int cannot be null
+     */
+}

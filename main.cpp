@@ -14,6 +14,7 @@ int main() {
 //    InfiniteLoop();
 //    switchAndBreak();
 //    EnumClass();
-    Constant();
+//    Constant();
+    PointerAndReference();
     return 0;
 }
